@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crustaceo Cascarudo</title>
+    <link rel="stylesheet" href="diseñoM.css">
+</head>
+
+    <style>
+        /* Estilos básicos para el menú */
+        .menu-section {
+            display: none; /* Ocultar todas las secciones inicialmente */
+            margin-top: 20px;
+        }
+        .menu-section.active {
+            display: block; /* Mostrar la sección activa */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxntl1hdO8eJ2EJxF2rOd2EYDB9d1XCFZm7A&s" alt="Logo dKrusty Krab" style="width:100px; height:auto;">
+        <h1>Crustaceo Cascarudo </h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('Nosotros')">Nosotros</button></li>
+                <li><button onclick="showSection('entradas')">Entradas</button></li>
+                <li><button onclick="showSection('platos-principales')">Platos Principales</button></li>
+                <li><button onclick="showSection('postres')">Postres</button></li>
+                <li><button onclick="showSection('bebidas')">Bebidas</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+   <main>
+
+        <section id="Nosotros" class="menu-section">               
+
+            <h2>Nosotros</h2>
+           
+                <h3>Bienvenidos al Crustaceo Cascarudo</h3>
+                
+            <IMG SRC="https://e0.pxfuel.com/wallpapers/623/299/desktop-wallpaper-krusty-krab.jpg">
+             <img src="crustaceo2.jpeg" style="width:400px; height: 200px;">
+                <p>El Crustáceo Cascarudo es el restaurante más popular y emblemático de la ciudad submarina de Fondo de Bikini. Conocido por su deliciosa Cangreburguer y su ambiente único.</p>
+                
+            </div>
+            <a href="#header" class="button">Volver arriba</a>
+        </section>
+
+
+        <section id="entradas" class="menu-section">
+            <h2>Entradas</h2>
+            <div class="menu-item">
+                <h3>Nuggets de pollo</h3>
+                <IMG class="imagencomida" SRC="nugi.jpeg">
+                <p>Nuggets de pollo acompañado con salsa de su preferencia.</p>
+                <span class="precio">$9.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Nachos con queso</h3>
+                <IMG class="imagencomida" SRC="https://www.seriouseats.com/thmb/uZ2kTYdMeLLptzkRhIfADoaRDJg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/cheese-sauce-for-cheese-fries-and-nachos-hero-01-e6ccf966688c43ec8025cf9a19678423.jpg">
+                <p>Nachos Frescos con rica salsa de queso.</p>
+                <span class="precio">$7.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Palitos de mozarella</h3>
+                 <IMG class="imagencomida" SRC="https://www.recetin.com/wp-content/uploads/2013/10/palitos_mozzarella.jpg.webp">
+                <p>Deditos de queso mozarella empanizados con salsa de tomate.</p>
+                <span class="precio">$5.30</span>
+            </div>  
+            <div class="menu-item">
+                <h3>Deditos de pollo</h3>
+                <img class="imagencomida" src=" https://media.airedesantafe.com.ar/p/91fa9a641baca561f6f3337dbe5543a0/adjuntos/268/imagenes/003/804/0003804568/1200x0/smart/rico-y-economico-la-receta-mas-sencilla-hacer-bastones-pollo-y-queso.png">
+                <p>Deditos de pollo empanizado con salsa de su preferencia.</p>
+                <span class="precio">$9.10</span>
+            </div>
+            <a href="#header" class="button">Volver arriba</a>
+        </section>
+
+        <section id="platos-principales" class="menu-section">
+            <h2>Platos Principales</h2>
+            <div class="menu-item">
+                <h3>MiniBurguer</h3>
+                <IMG class="imagencomida" SRC="ajajsjasj.jpeg">
+                <p>3 hamburguesas clásicas pequeñas.</p>
+                <span class="precio">$15.10</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cangreburguer</h3>
+                <img class="imagencomida" src="Hmbg.jpeg">
+                <p>Hamburguesa con Jamon, queso, carne y vegetales.</p>
+                <span class="precio">$20.00</span>
+            </div>
+                <div class="menu-item">
+                    <h3>Hamburguesa de pollo</h3>
+                    <img class="imagencomida" src="POLLO.jpeg">
+                    <p>Hamburguesa de pollo, queso y vegetales</p>
+                    <span class="precio">$19.00</span>
+            </div>
+                <div class="menu-item">
+                    <h3>Ultra Burguer</h3>
+                    <img class="imagencomida" src="TOCINO.jpeg">
+                    <p>Hamburguesa de pollo, tocino, queso y vegetales, salsa especial y papas fritas.</p>
+                    <span class="precio">$28.00</span>
+            </div>
+                <div class="menu-item">
+                    <h3>Sandwich pollo</h3>
+                    <img class="imagencomida" src="sangui.jpeg">
+                    <p>Sandwich de pollo corriente con vegetales.</p>
+                    <span class="precio">$11.50</span>
+                </div>
+                        <div class="menu-item">
+                            <h3>Sandwich Cubano</h3>
+                            <img class="imagencomida" src="SANGUI2.jpeg">
+                            <p>Vegetales, pollo,jamon, queso, huevo frito y papas</p>
+                            <span class="precio">$24.00</span>
+                    
+            </div>
+            <a href="#header" class="button">Volver arriba</a>
+        </section>
+
+
+
+
+        <section id="postres" class="menu-section"> 
+            <h2>Postres</h2>
+            <div class="menu-item">
+                <h3>Creepe de chocolate</h3>
+                   <IMG class="imagencomida" SRC="postre1.jpeg">
+                <p>Crepe recien hecho relleno y cubierto de chocolate.</p>
+                <span class="precio">$7.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tarta de frutilla</h3>
+                <img class="imagencomida" src="postre2.jpeg">
+                <p>Rica tarta de queso crema con frutillas.</p>
+                <span class="precio">$5.00</span>
+            </div>
+            <a href="#header" class="button">Volver arriba</a>
+        </section>
+
+        <section id="bebidas" class="menu-section">
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <h3>Jugo de naranja</h3>
+                <img class="imagencomida" src="bebida1.jpeg">
+                <p>jugo fresco de naranja (o de su preferencia).</p>
+                <span class="precio">$5.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cocacola</h3>
+                <img class="imagencomida" src="bebida3.jpeg">
+                <p>Refrescante Cocacola.</p>              
+                <span class="precio">$3.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Smoothie</h3>
+                <img class="imagencomida" src="bebida2.jpeg">
+                <p>Smoothie de fresa natural.</p>        
+                <span class="precio">$9.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Botella de agua</h3>
+                    <img class="imagencomida" src="AGUA.jpeg">
+                    <p>Agua Dasani bien fria.</p>        
+                    <span class="precio">$3.00</span>
+                    </div>
+
+                <a href="#header" class="button">Volver arriba</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 krusty krab. </p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            // Ocultar todas las secciones
+            const sections = document.querySelectorAll('.menu-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            // Mostrar la sección seleccionada
+            const activeSection = document.getElementById(sectionId);
+            activeSection.classList.add('active');
+        }
+
+        // Mostrar la primera sección por defecto
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('Nosotros');
+        });
+    </script>
+</body>
+</html>
